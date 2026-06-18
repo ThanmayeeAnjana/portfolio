@@ -49,8 +49,8 @@ export default function Hero() {
                 src="/profile.jpeg"
                 alt="Profile"
                 className="
-                w-[450px]
-                h-[550px]
+                w-[400px]
+                h-[500px]
                 object-cover
                 rounded-3xl
                 bg-zinc-900
