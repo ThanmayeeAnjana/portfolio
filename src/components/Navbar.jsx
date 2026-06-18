@@ -11,6 +11,9 @@ export default function Navbar() {
     "Education",
     "Profiles",
     "Contact",
+    "Achievements",
+    "Certifications",
+    "Hackathons",
   ];
 
   return (

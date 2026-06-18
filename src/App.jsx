@@ -24,7 +24,10 @@ function HomePage() {
       <About />
       <Skills />
       <Projects />
+      <Achievements />
+      <Certifications />
       <Education />
+      <Hackathons />
       <CodingProfiles />
       <Contact />
       <Footer />
