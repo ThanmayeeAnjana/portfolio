@@ -8,12 +8,8 @@ export default function Navbar() {
     "About",
     "Skills",
     "Projects",
-    "Education",
-    "Profiles",
-    "Contact",
     "Achievements",
-    "Certifications",
-    "Hackathons",
+    "Contact",
   ];
 
   return (

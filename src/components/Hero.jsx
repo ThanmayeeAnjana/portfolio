@@ -4,7 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center px-6">
+    <section className="min-h-screen pt-24 flex items-center justify-center px-6">
       <div className="max-w-7xl w-full grid md:grid-cols-2 gap-16 items-center">
         
 
