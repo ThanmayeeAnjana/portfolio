@@ -24,21 +24,40 @@ export default function Education() {
 
   {/* Card */}
   <div className="relative border-l-4 border-pink-500 pl-10">
-  <div className="mb-10">
-    <div className="absolute -left-3 w-6 h-6 bg-pink-500 rounded-full" />
+
+    {/* Intermediate */}
+  <div className="relative">
+    <div className="absolute -left-[53px] w-6 h-6 bg-pink-500 rounded-full shadow-[0_0_20px_rgba(236,72,153,1)]" />
 
     <h3 className="text-xl font-bold">
-      B.Tech
+      Intermediate (MPC)
     </h3>
 
     <p className="text-pink-400">
-      Vishnu Institute of Technology
+      Sasi Junior College
     </p>
 
     <p className="text-zinc-400">
-      2023 - 2027
+      2022 - 2024
     </p>
   </div>
+  {/* B.Tech */}
+  <div className="relative mb-12">
+    <div className="absolute -left-[53px] w-6 h-6 bg-pink-500 rounded-full shadow-[0_0_20px_rgba(236,72,153,1)]" />
+
+    <h3 className="text-xl font-bold">
+      B.Tech - Computer Science
+    </h3>
+
+    <p className="text-pink-400">
+      Shri Vishnu Engineering College for Women
+    </p>
+
+    <p className="text-zinc-400">
+      2024 - 2028
+    </p>
+  </div>
+
 </div>
     </div>
     </section>
