@@ -23,33 +23,23 @@ export default function Education() {
   />
 
   {/* Card */}
-  <div
-    className="
-    relative
-    bg-[#111111]
-    border
-    border-pink-500/30
-    rounded-3xl
-    p-8
-    hover:border-pink-400
-    hover:shadow-[0_0_50px_rgba(236,72,153,0.8)]
-    hover:-translate-y-2
-    transition-all
-    duration-500
-    "
-  >
-        <h3 className="text-2xl font-semibold">
-          {portfolioData.degree || "B.Tech"}
-        </h3>
+  <div className="relative border-l-4 border-pink-500 pl-10">
+  <div className="mb-10">
+    <div className="absolute -left-3 w-6 h-6 bg-pink-500 rounded-full" />
 
-        <p className="text-pink-400 mt-2">
-          {portfolioData.college}
-        </p>
+    <h3 className="text-xl font-bold">
+      B.Tech
+    </h3>
 
-        <p className="text-zinc-400 mt-2">
-          Graduation Year: {portfolioData.graduationYear}
-        </p>
-      </div>
+    <p className="text-pink-400">
+      Vishnu Institute of Technology
+    </p>
+
+    <p className="text-zinc-400">
+      2023 - 2027
+    </p>
+  </div>
+</div>
     </div>
     </section>
   );
