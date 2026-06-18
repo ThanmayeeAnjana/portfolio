@@ -1,15 +1,15 @@
 export default function Achievements() {
   const achievements = [
-    "Participated in WeForShe Hackathon",
-    "Built MaidConnect Platform",
     "Solved 300+ Coding Problems",
-    "Cisco Certified in Networking",
+    "Reached the finals, shortlist, or top ranks in a hackathon.",
+    "Earned selection to compete at the district level in basketball.",
+    "Built projects focused on solving real-world problems.",
   ];
 
   return (
     <section id="achievements" className="max-w-6xl mx-auto px-6 py-24">
       <h2 className="text-4xl font-bold text-pink-500 mb-12">
-        Achievements
+        Highlights
       </h2>
 
       <div className="grid md:grid-cols-2 gap-6">

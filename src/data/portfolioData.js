@@ -31,21 +31,61 @@ const portfolioData = {
 
   projects: [
     {
-      title: "Project 1",
-      description: "Update later",
-      tech: ["HTML", "CSS"],
-      github: "#",
-      live: "#"
-    },
-    {
   title: "MaidConnect",
   description:
     "A web-based platform that connects domestic workers with households seeking trusted services. Features worker profiles, skill showcases, location-based discovery, and seamless user-worker matching.",
   tech: ["HTML", "CSS", "JavaScript", "Firestore DB"],
   github: "https://github.com/ThanmayeeAnjana/MaidConnect",
   featured: true
-}
-  ]
+},
+    {
+      title: "To-Do List App",
+      description: "A responsive task management application that enables users to add, edit, delete, and track tasks with features such as voice input, dark mode, task filtering, and local storage for seamless productivity and organization.",
+      tech: ["HTML", "JavaScript"],
+      github: "https://github.com/ThanmayeeAnjana/To-do-App",
+      featured: true
+    }
+  ],
+
+  certifications: [
+  {
+    title: "Programming in Java",
+    issuer: "NPTEL",
+    file: "/certificates/nptel.pdf",
+  },
+  {
+    title: "Java OOP : Role of Constructors in Inheritance",
+    issuer: "Infosys Springboard",
+    file: "/certificates/infosys.pdf",
+  },
+  {
+    title: "Introduction to Cybersecurity",
+    issuer: "Cisco",
+    file: "/certificates/cyber.pdf",
+  },
+  {
+    title: "Networking Essentials",
+    issuer: "Cisco",
+    file: "/certificates/network.pdf",
+  },
+],
+
+hackathons: [
+  {
+    name: "Google Developer Group Hackathon",
+    project: "MaidConnect",
+    description:
+      "A platform connecting domestic workers with households seeking trusted services.",
+  },
+
+  {
+    name: "Pivot Hackathon",
+    project: "ToxFree Solutions",
+    description:
+      "ToxFree Solutions converts cigarette waste into eco-friendly bricks, creating sustainable materials while reducing pollution.",
+  },
+]
+
 };
 
 export default portfolioData;

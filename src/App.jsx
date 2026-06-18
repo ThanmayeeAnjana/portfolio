@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-
+import AllCertifications from "./pages/AllCertifications";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -13,6 +13,7 @@ import CodingProfiles from "./components/CodingProfiles";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import StarsBackground from "./components/StarsBackground";
+import AllHackathons from "./pages/AllHackathons";
 
 import AllProjects from "./pages/AllProjects";
 
@@ -44,6 +45,8 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/projects" element={<AllProjects />} />
+          <Route path="/certifications" element={<AllCertifications />} />
+          <Route path="/hackathons" element={<AllHackathons />} />
         </Routes>
       </div>
     </>
